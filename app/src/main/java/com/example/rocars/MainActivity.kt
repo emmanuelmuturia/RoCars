@@ -91,6 +91,12 @@ fun RoCard(roCar: RoCar, modifier: Modifier = Modifier) {
                 Spacer(modifier = Modifier.width(7.dp))
                 Text(text = stringResource(id = roCar.carAcceleration))
             }
+            Spacer(modifier = Modifier.height(3.dp))
+            Row {
+                Text(text = "Date: ", fontWeight = FontWeight.Bold, modifier = Modifier.padding(start = 7.dp, bottom = 7.dp))
+                Spacer(modifier = Modifier.width(7.dp))
+                Text(text = "27th March 2023")
+            }
         }
     }
 }

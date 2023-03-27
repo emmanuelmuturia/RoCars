@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RoCars</string>
+
+    <string name="maserati_granturismo_trofeo">Maserati GranTurismo Trofeo 2023</string>
+
+    <string name="day1_engine">V6, 3.0 L, 550 Ps, 650 Nm</string>
+
+    <string name="day1_top_speed">320 km/h</string>
+
+    <string name="day1_carAcceleration">3.5 s</string>
+
+</resources>

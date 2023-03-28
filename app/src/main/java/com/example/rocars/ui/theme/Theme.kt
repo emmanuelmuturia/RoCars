@@ -6,10 +6,12 @@ import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import com.example.rocars.R
 
 private val DarkColorPalette = darkColors(
-    background = Color.Yellow,
-    primary = Purple200,
+    background = DarkOrange,
+    surface = LightOrange,
+    primary = DarkerOrange,
     primaryVariant = Purple700,
     secondary = Teal200
 )

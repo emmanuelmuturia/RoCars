@@ -2,17 +2,38 @@ package com.example.rocars.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.rocars.R
+
+val Caveat = FontFamily(
+    Font(R.font.caveat_bold),
+    Font(R.font.caveat_medium),
+    Font(R.font.caveat_regular)
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
-    body1 = TextStyle(
-        fontFamily = FontFamily.Default,
+    h1 = TextStyle(
+        fontFamily = Caveat,
+        fontWeight = FontWeight.Bold,
+        fontSize = 25.sp
+    ),
+
+    h2 = TextStyle(
+        fontFamily = Caveat,
+        fontWeight = FontWeight.Medium,
+        fontSize = 21.sp
+    ),
+
+    h3 = TextStyle(
+        fontFamily = Caveat,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+        fontSize = 18.sp
     )
+
     /* Other default text styles to override
     button = TextStyle(
         fontFamily = FontFamily.Default,
@@ -25,4 +46,4 @@ val Typography = Typography(
         fontSize = 12.sp
     )
     */
-)
+ )

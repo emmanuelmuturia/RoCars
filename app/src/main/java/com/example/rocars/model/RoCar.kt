@@ -8,5 +8,6 @@ data class RoCar(
     @StringRes val carTitle: Int,
     @StringRes val carEngine: Int,
     @StringRes val carTopSpeed: Int,
-    @StringRes val carAcceleration: Int
+    @StringRes val carAcceleration: Int,
+    @StringRes val carDate: Int
 )

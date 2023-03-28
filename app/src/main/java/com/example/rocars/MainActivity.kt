@@ -60,6 +60,12 @@ fun RoCarApp() {
 
 
 @Composable
+private fun RoCarButton() {
+
+}
+
+
+@Composable
 fun RoCard(roCar: RoCar, modifier: Modifier = Modifier) {
     Card(elevation = 7.dp, modifier = Modifier.padding(7.dp)) {
         /*Image(
